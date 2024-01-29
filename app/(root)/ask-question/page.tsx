@@ -3,9 +3,8 @@ import React from "react";
 
 const AskQuestion = () => {
   return (
-    <div className="h1-bold text-dark100_light900">
-      <h1>Ask a Question</h1>
-
+    <div>
+      <h1 className="h1-bold text-dark100_light900">Ask a Question</h1>
       <div className="mt-9">
         <Question />
       </div>
