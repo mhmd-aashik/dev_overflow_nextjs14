@@ -3,13 +3,13 @@ import React from "react";
 import { Badge } from "@/components/ui/badge";
 
 interface RenderTagsProps {
-  _id: number;
+  _id: string;
   name: string;
-  totalQuestions: number;
-  showCount: boolean;
+  totalQuestions?: number;
+  showCount?: boolean;
 }
 
-const RenderTags = ({
+const RenderTag = ({
   _id,
   name,
   totalQuestions,
@@ -27,4 +27,4 @@ const RenderTags = ({
   );
 };
 
-export default RenderTags;
+export default RenderTag;
