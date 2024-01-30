@@ -54,6 +54,7 @@ const Question = ({ mongoUserById }: Props) => {
         content: values.explanation,
         tags: values.tags,
         author: JSON.parse(mongoUserById),
+        path: pathname,
       });
 
       // navigate to home
